@@ -26,5 +26,24 @@ While it does not aim to support all of `pv`'s powerful functionality, it provid
 `ncpv` is designed to monitor the progress of data through a pipeline. The most basic usage is to
 run `ncpv` with a single argument: the file path. For example, to monitor the progress of copying a file:
 ``` bash
-$ ncpv source.txt > destination.txt
+ncpv source.txt > destination.txt
+```
+
+## Building and Installing
+
+### Prerequisites
+
+Ensure you have Rust and Cargo installed. You can install Rust using [rustup](https://rustup.rs/).
+
+### Quick install
+```bash
+cargo install --git https://github.com/JosiahKerley/ncpv --branch main
+```
+
+### Building and installing
+``` bash
+git clone https://github.com/JosiahKerley/ncpv
+cd ncpv
+cargo build --release
+cargo install --path .
 ```
