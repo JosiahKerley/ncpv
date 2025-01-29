@@ -21,9 +21,6 @@ While it does not aim to support all of `pv`'s powerful functionality, it provid
 
 ## How to use
 
-First, to get an overview of all available command line options, you can either run
-`ncpv -h` for a concise help message or `ncpv --help` for a more detailed version.
-
 ### Simple usage
 
 `ncpv` is designed to monitor the progress of data through a pipeline. The most basic usage is to
