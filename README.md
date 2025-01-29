@@ -16,7 +16,8 @@ While it does not aim to support all of `pv`'s powerful functionality, it provid
 
 ## Demo
 
-![Demo](media/demo.gif)
+![Demo](.media/demo.gif)
+
 
 ## How to use
 
